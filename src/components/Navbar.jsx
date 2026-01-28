@@ -10,7 +10,7 @@ const Navbar = () => {
           <h1>GJR</h1>
         </div>
         <div className="w-2/4">
-          <ul>
+          <ul className='flex justify-between'>
             <li>Home</li>
             <li>About</li>
             <li>Projects</li>
