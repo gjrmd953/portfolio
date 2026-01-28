@@ -3,7 +3,7 @@ import Container from './Container'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='py-3.5'>
       <Container>
         <div className="flex justify-between">
 
