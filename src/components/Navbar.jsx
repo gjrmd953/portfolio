@@ -4,20 +4,26 @@ import Container from './Container'
 const Navbar = () => {
   return (
     <div>
-        <Container>
-            <div className="w-1/4">
-             <h1>GJR</h1>
-            </div>
-            <div className="w-2/4">
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Servic</li>
-              <li>Contract</li>
-            </ul>
-            </div>
-            <div className="w-1/4"></div>
-        </Container>
+      <Container>
+<div className="flex justify-between">
+          <div className="w-1/4">
+          <h1>GJR</h1>
+        </div>
+        <div className="w-2/4">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Servic</li>
+            <li>Blog</li>
+            <li>Contract</li>
+          </ul>
+        </div>
+        <div className="w-1/4">
+
+        </div>
+</div>
+      </Container>
     </div>
   )
 }
