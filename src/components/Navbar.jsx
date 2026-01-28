@@ -8,7 +8,14 @@ const Navbar = () => {
             <div className="w-1/4">
              <h1>GJR</h1>
             </div>
-            <div className="w-2/4"></div>
+            <div className="w-2/4">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Servic</li>
+              <li>Contract</li>
+            </ul>
+            </div>
             <div className="w-1/4"></div>
         </Container>
     </div>
