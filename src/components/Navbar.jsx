@@ -20,7 +20,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="w-1/4">
-
+               <h2>LET'S TALK</h2>
         </div>
 </div>
       </Container>
