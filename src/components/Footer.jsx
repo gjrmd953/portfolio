@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='bg-gray-900'>
             <Container>
-                <footer className=" text-gray-300 py-10 mt-16">
+                <div className=" text-gray-300 py-10 mt-16">
 
                         {/* Top Section */}
                         <div className=" flex gap-8 justify-between">
@@ -18,8 +18,8 @@ const Footer = () => {
                                     Md Jashim Uddin
                                 </h2>
                                 <p className="text-sm leading-relaxed">
-                                    Frontend Developer skilled in React, JavaScript, and Tailwind CSS.
-                                    Passionate about building clean and responsive web applications.
+                                    Frontend Developer skilled in React, JavaScript, <br /> and Tailwind CSS.
+                                    Passionate about building clean and <br /> responsive web applications.
                                 </p>
                             </div>
 
@@ -87,7 +87,7 @@ const Footer = () => {
                         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
                             © {new Date().getFullYear()} Md Jashim Uddin. All Rights Reserved.
                         </div>
-                </footer>
+                </div>
             </Container>
         </div>
     )
