@@ -1,4 +1,5 @@
 import React from 'react'
+import Container from './Container'
 
 const Blog = () => {
   return (
@@ -12,9 +13,7 @@ const Blog = () => {
         >
           <h2>hello</h2>
         <h3>hi</h3>
-        <Container>
-          <h2>hello</h2>
-        </Container>
+       
         </div>
     </div>
   )
