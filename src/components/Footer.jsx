@@ -57,10 +57,10 @@ const Footer = () => {
 
                             <div className="py">
                                 <div className="flex gap-3 items-center pb-5">
-                                    <h2 className='p-[7px] border-2 rounded-full'>
+                                    <h2 className='p-[7px] border-2 rounded-full cursor-pointer'>
                                         <MdEmail className='text-[18px]  ' />
                                     </h2>
-                                    <h2 className='text-[18px] hover:underline hover:text-red-500'>gjrmd953@gmail.com</h2>
+                                    <h2 className='text-[18px] hover:underline hover:text-red-500 cursor-pointer'>gjrmd953@gmail.com</h2>
                                 </div>
                             </div>
 

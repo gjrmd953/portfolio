@@ -3,28 +3,28 @@ import Container from './Container'
 
 const Navbar = () => {
   return (
-    <div className='py-3.5'>
+    <div className='py-4 bg-gray-900'>
       <Container>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
 
           <div className="w-1/4">
-            <h1>GJR</h1>
+            <h1 className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>GJR</h1>
           </div>
 
           <div className="w-2/4">
             <ul className='flex justify-between'>
-              <li>Home</li>
-              <li>About</li>
-              <li>Projects</li>
-              <li>Servic</li>
-              <li>Blog</li>
-              <li>Contract</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Home</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>About</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Projects</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Servic</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Blog</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Contract</li>
             </ul>
           </div>
 
           <div className="w-1/4">
             <div className="text-end">
-              <h2>LET'S TALK</h2>
+              <h2 className='font-INT font-semiboldm text-[18px] text-white cursor-pointer py-1 px-2 border-2 inline-block'>LET'S TALK</h2>
             </div>
           </div>
 
