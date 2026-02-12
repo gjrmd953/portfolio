@@ -14,6 +14,9 @@ const Banner = () => {
                     <h2>
                         hi im md jashim uddin
                     </h2>
+                    <p>
+                        A personal portfolio is a collection of your work, achievements, and skills that highlights your abilities and professional growth. It serves as
+                    </p>
                 </div>
             </Container>
         </div>
