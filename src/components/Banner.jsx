@@ -17,6 +17,10 @@ const Banner = () => {
                     <p>
                         A personal portfolio is a collection of your work, achievements, and skills that highlights your abilities and professional growth. It serves as
                     </p>
+
+                    <button>
+                        vew forofile
+                    </button>
                 </div>
             </Container>
         </div>
