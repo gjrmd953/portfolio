@@ -14,10 +14,10 @@ const Footer = () => {
 
                             {/* About */}
                             <div className='w-2/5'>
-                                <h2 className="text-2xl font-bold text-white mb-4">
+                                <h2 className="font-INT text-2xl font-bold text-white mb-4">
                                     Md Jashim Uddin
                                 </h2>
-                                <p className="text-sm leading-relaxed">
+                                <p className="text-sm leading-relaxed font-INT">
                                     Frontend Developer skilled in React, JavaScript, <br /> and Tailwind CSS.
                                     Passionate about building clean and <br /> responsive web applications.
                                 </p>
@@ -25,22 +25,22 @@ const Footer = () => {
 
                             {/* Quick Links */}
                             <div className='w-2/5'>
-                                <h3 className="text-xl font-semibold text-white mb-4">
+                                <h3 className="text-xl font-semibold text-white mb-4 font-INT">
                                     Quick Links
                                 </h3>
                                 <ul className="space-y-2 text-sm">
                                     <li>
-                                        <a href="#about" className="hover:text-white transition">
+                                        <a href="#about" className="hover:text-white transition font-INT">
                                             About
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#projects" className="hover:text-white transition">
+                                        <a href="#projects" className="hover:text-white transition font-INT">
                                             Projects
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#contact" className="hover:text-white transition">
+                                        <a href="#contact" className="hover:text-white transition font-INT">
                                             Contact
                                         </a>
                                     </li>
@@ -49,7 +49,7 @@ const Footer = () => {
 
                             {/* Social Links */}
                             <div className='w-1/5'>
-                                <h3 className="text-xl font-semibold text-white mb-4">
+                                <h3 className="text-xl font-semibold text-white mb-4 font-INT">
                                     Connect With Me
                                 </h3>
                                 <div className="flex space-x-4 text-2xl">
