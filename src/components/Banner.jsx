@@ -2,6 +2,7 @@ import React from 'react'
 import Container from './Container'
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { LiaLinkedin } from 'react-icons/lia';
 
 const Banner = () => {
     return (
@@ -44,7 +45,7 @@ const Banner = () => {
                                     <Github />
                                 </a>
                                 <a href="#" className="hover:text-blue-500 transition">
-                                    <Linkedin />
+                                    <LiaLinkedin />
                                 </a>
                                 <a href="#" className="hover:text-blue-500 transition">
                                     <Mail />
