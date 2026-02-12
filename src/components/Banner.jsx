@@ -8,9 +8,7 @@ const Banner = () => {
                 <h2>
                     hello
                 </h2>
-                <h2>
-                        hi im md jashim uddin
-                    </h2>
+                
                 <div className="">
 
                     <h2>
