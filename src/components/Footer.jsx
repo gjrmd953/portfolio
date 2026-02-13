@@ -11,10 +11,10 @@ const Footer = () => {
             <Container>
                 <div className=" text-gray-300 py-10 mt-16">
 
-                    {/* Top Section */}
+                   
                     <div className=" flex gap-8 justify-between">
 
-                        {/* About */}
+                     
                         <div className='w-2/5'>
                             <h2 className="font-INT text-2xl font-bold text-white mb-4">
                                 Md Jashim Uddin
@@ -25,7 +25,6 @@ const Footer = () => {
                             </p>
                         </div>
 
-                        {/* Quick Links */}
                         <div className='w-2/5'>
                             <h3 className="text-xl font-semibold text-white mb-4 font-INT">
                                 Quick Links
@@ -49,7 +48,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        {/* Social Links */}
+
                         <div className='w-1/5'>
                             <h3 className="text-xl font-semibold text-white mb-4 font-INT">
                                 Connect With Me
@@ -103,7 +102,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Bottom Section */}
                     <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
                         © {new Date().getFullYear()} Md Jashim Uddin. All Rights Reserved.
                     </div>
