@@ -9,12 +9,15 @@ import Contract from '../components/Contract'
 const Home = () => {
   return (
     <>
-    <Navbar/>
-    <Banner/>
-    <Projects/>
-    <Blog/>
-    <Contract/>
-    <Footer/>
+      <div className='bg-red-950'>
+        <Navbar />
+        <Banner />
+        <Projects />
+        <Blog />
+        <Contract />
+        <Footer />
+      </div>
+
     </>
   )
 }
