@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 import Contract from '../components/Contract'
 import About from '../components/About'
+import Servic from '../components/Servic'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Navbar />
         <Banner />
         <About/>
+        <Servic/>
         <Projects />
         <Blog />
         <Contract />
