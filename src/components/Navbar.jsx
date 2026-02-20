@@ -3,7 +3,7 @@ import Container from './Container'
 
 const Navbar = () => {
   return (
-    <div className='py-4 bg-gray-900'>
+    <div className='py-4 bg-teal-500'>
       <Container>
         <div className="flex justify-between items-center">
 
@@ -12,16 +12,14 @@ const Navbar = () => {
           </div>
 
           <div className="w-2/4">
-            <ul className='flex justify-between'>
+            <ul className='flex gap-x-14'>
               <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Home</li>
               <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>About</li>
-              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Projects</li>
               <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Servic</li>
-              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Blog</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Projects</li>
               <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Contract</li>
             </ul>
           </div>
-
           <div className="w-1/4">
             <div className="text-end">
               <h2 className='font-INT font-semiboldm text-[18px] text-white cursor-pointer py-1 px-2 border-2 inline-block'>LET'S TALK</h2>
