@@ -13,21 +13,37 @@ const Contact = () => {
 
                 <div className="flex gap-12">
 
-                    <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">
-                            Let's work together 🚀
-                        </h3>
+                    <section className="bg-gray-900 text-white py-16 px-6">
+                        <div className="max-w-4xl mx-auto text-center">
 
-                        <p className="text-gray-400 leading-relaxed">
-                            I'm open to freelance projects, collaborations,
-                            and full-time opportunities.
-                        </p>
+                            <h2 className="text-4xl font-bold mb-6">
+                                Let’s Build Something Amazing Together 🚀
+                            </h2>
 
-                        <div className="space-y-3 text-gray-300">
-                            <p>Email: mdjashimuddin@example.com</p>
-                            <p>Location: Bangladesh</p>
+                            <p className="text-gray-400 mb-8">
+                                I’m currently available for freelance work, collaborations, and full-time roles.
+                                Let’s turn your ideas into modern, high-performing web experiences.
+                            </p>
+
+                            <div className="space-y-3 text-lg">
+                                <p>
+                                    📧 <span className="font-semibold">Email:</span> mdjashimuddin@example.com
+                                </p>
+                                <p>
+                                    📍 <span className="font-semibold">Based in:</span> Bangladesh
+                                </p>
+                            </div>
+
+                            <div className="mt-8">
+                                <a
+                                    href="mailto:mdjashimuddin@example.com"
+                                    className="bg-blue-600 px-6 py-3 rounded-xl hover:bg-blue-700 transition"
+                                >
+                                    Send Message
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    </section>
 
                     <form className="bg-slate-800 p-8 rounded-2xl space-y-6 shadow-lg">
 
