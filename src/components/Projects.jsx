@@ -31,6 +31,37 @@ const projects = [
     liveLink: "#",
     githubLink: "#",
   },
+  {
+    id: 3,
+    title: "Portfolio Website",
+    description:
+      "Personal portfolio website showcasing projects and skills.",
+    image:
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    liveLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: 3,
+    title: "Portfolio Website",
+    description:
+      "Personal portfolio website showcasing projects and skills.",
+    image:
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    liveLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: 3,
+    title: "Portfolio Website",
+    description:
+      "Personal portfolio website showcasing projects and skills.",
+    image:
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    liveLink: "#",
+    githubLink: "#",
+  },
+
 ];
 
 const Projects = () => {
