@@ -23,6 +23,27 @@ const services = [
       "Applying security best practices to protect web applications and user data.",
     icon: <Shield size={40} />,
   },
+  {
+    id: 3,
+    title: "Web Security Basics",
+    description:
+      "Applying security best practices to protect web applications and user data.",
+    icon: <Shield size={40} />,
+  },
+  {
+    id: 3,
+    title: "Web Security Basics",
+    description:
+      "Applying security best practices to protect web applications and user data.",
+    icon: <Shield size={40} />,
+  },
+  {
+    id: 3,
+    title: "Web Security Basics",
+    description:
+      "Applying security best practices to protect web applications and user data.",
+    icon: <Shield size={40} />,
+  },
 ];
 
 const ServicesSection = () => {
