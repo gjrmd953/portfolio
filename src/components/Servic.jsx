@@ -24,8 +24,8 @@ const services = [
     icon: <Shield size={40} />,
   },
   {
-    id: 3,
-    title: "Web Security Basics",
+    id: 4,
+    title: "API Integration",
     description:
       "Applying security best practices to protect web applications and user data.",
     icon: <Shield size={40} />,
