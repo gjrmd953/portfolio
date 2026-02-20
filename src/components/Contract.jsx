@@ -17,7 +17,7 @@ const Contact = () => {
                         <div className="max-w-4xl mx-auto text-center">
 
                             <h2 className="text-4xl font-bold mb-6">
-                                Let’s Build Something Amazing Together 🚀
+                                Let’s Build Something Amazing Together
                             </h2>
 
                             <p className="text-gray-400 mb-8">
@@ -30,7 +30,7 @@ const Contact = () => {
                                     📧 <span className="font-semibold">Email:</span> mdjashimuddin@example.com
                                 </p>
                                 <p>
-                                    📍 <span className="font-semibold">Based in:</span> Bangladesh
+                                    <span className="font-semibold">Based in:</span> Bangladesh
                                 </p>
                             </div>
 
