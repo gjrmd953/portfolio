@@ -13,7 +13,7 @@ const services = [
     id: 2,
     title: "Responsive Design",
     description:
-      "Mobile-first design approach to ensure smooth experience across all devices.",
+      "I follow a mobile-first design approach to ensure seamless and consistent user experiences across all devices and screen sizes.",
     icon: <Smartphone size={40} />,
   },
   {
