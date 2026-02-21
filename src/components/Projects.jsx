@@ -19,7 +19,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1508780709619-79562169bc64",
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/gjrmd953/portfolio",
   },
   {
     id: 3,
