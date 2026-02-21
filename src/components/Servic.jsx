@@ -6,7 +6,7 @@ const services = [
     id: 1,
     title: "Frontend Development",
     description:
-      "Building responsive and modern websites using React, Tailwind CSS and modern UI principles.",
+      "I build responsive, modern, and high-performance websites using React, Tailwind CSS, and modern UI/UX principles. My focus is on clean code, scalability, and delivering seamless user experiences.",
     icon: <Code size={40} />,
   },
   {
