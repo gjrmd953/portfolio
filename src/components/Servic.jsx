@@ -34,14 +34,14 @@ const services = [
     id: 5,
     title: "Performance Optimization",
     description:
-      "Improving application speed and efficiency through code splitting, lazy loading, asset optimization, and minimizing unnecessary re-renders.",
+      "Applying security best practices to protect web applications and user data.",
     icon: <Shield size={40} />,
   },
   {
     id: 6,
     title: "Git & GitHub",
     description:
-      "Managing source code with Git, handling branches, pull requests, and collaborative workflows using GitHub to maintain clean and organized projects. security best practices to protect web applications and user data.",
+      "Managing source code with Git, handling branches, pull requests, and collaborative workflows using GitHub to maintain clean and organized projects.",
     icon: <Shield size={40} />,
   },
 ];
