@@ -41,7 +41,7 @@ const services = [
     id: 6,
     title: "Git & GitHub",
     description:
-      "Applying security best practices to protect web applications and user data.",
+      "Managing source code with Git, handling branches, pull requests, and collaborative workflows using GitHub to maintain clean and organized projects. security best practices to protect web applications and user data.",
     icon: <Shield size={40} />,
   },
 ];
