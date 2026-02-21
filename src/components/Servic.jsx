@@ -20,7 +20,7 @@ const services = [
     id: 3,
     title: "Web Security Basics",
     description:
-      "Applying security best practices to protect web applications and user data.",
+      "Implementing fundamental security practices such as input validation, secure authentication handling, and protection against common web vulnerabilities to ensure application integrity and user data safety.",
     icon: <Shield size={40} />,
   },
   {
