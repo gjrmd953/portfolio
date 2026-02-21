@@ -27,7 +27,7 @@ const services = [
     id: 4,
     title: "API Integration",
     description:
-      "Applying security best practices to protect web applications and user data.",
+      "Connecting frontend applications with REST APIs using asynchronous requests, handling authentication, and managing state for dynamic and real-time user experiences.",
     icon: <Shield size={40} />,
   },
   {
