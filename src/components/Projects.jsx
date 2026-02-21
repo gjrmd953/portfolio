@@ -8,8 +8,8 @@ const projects = [
       "A fully responsive e-commerce website built with React and Tailwind CSS.",
     image:
       "https://images.unsplash.com/photo-1522199710521-72d69614c702",
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://splendid-cheesecake-54e75d.netlify.app/product",
+    githubLink: "https://github.com/gjrmd953/finalproject",
   },
   {
     id: 2,
