@@ -34,7 +34,7 @@ const services = [
     id: 5,
     title: "Performance Optimization",
     description:
-      "Applying security best practices to protect web applications and user data.",
+      "Improving application speed and efficiency through code splitting, lazy loading, asset optimization, and minimizing unnecessary re-renders.",
     icon: <Shield size={40} />,
   },
   {
