@@ -1,36 +1,54 @@
-
-import React from 'react'
-import Container from './Container'
+import React from "react";
+import Container from "./Container";
 
 const About = () => {
   return (
-    <div className='bg-black py-25'>
-        <Container>
-            <div className="flex justify-center">
-                <div className="pb-10 w-1/3">
-                <h2 className='text-[36px] pb-10 text-teal-500 font-bold font-INT text-center  after:absolute after:top-15 after:left-37 after:w-30 after:h-1 after:bg-teal-500 relative'>Know Me More</h2>
-            </div>
-            </div>
-            <div className="flex ">
-                <div className="w-1/2 ">
-                <h3 className='text-[32px] text-white pb-5 font-INT font-bold '>I'm <span className='text-teal-500'>Jashim Uddin,</span> a Frontend Developer</h3>
-                <p className='text-[17px] text-white'>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
-            </div>
-            <div className="w-1/2 flex justify-center">
-                <ul>
-                    <li className='text-white pb-2 mb-3 text-[17px] border-b-2 border-gray-gray-300'><span className='font-bold'>Name:</span> Jashim Uddin</li>
-                    <li className='text-white pb-2 mb-3 text-[17px] border-b-2 border-gray-gray-300'><span className='font-bold'>Email:</span> gjr953@gmail.com</li>
-                    <li className='text-white pb-2 mb-3 text-[17px] border-b-2 border-gray-gray-300'><span className='font-bold'>Age:</span> 22</li>
-                    <li className='text-white pb-2 mb-3 text-[17px] border-b-2 border-gray-300'><span className='font-bold'>From:</span> Dhala, Bangladesh</li>
-                </ul>
-            </div>
-            </div>
-            <div className="">
+    <section className="bg-black py-24">
+      <Container>
+        {/* Section Title */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-teal-500 relative inline-block">
+            Know Me More
+            <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-20 h-1 bg-teal-500"></span>
+          </h2>
+        </div>
 
-            </div>
-        </Container>
-    </div>
-  )
-}
+        <div className="flex flex-col md:flex-row gap-12">
+          {/* Left Side */}
+          <div className="md:w-1/2">
+            <h3 className="text-3xl text-white font-bold mb-5">
+              I'm <span className="text-teal-500">Jashim Uddin,</span> a Frontend Developer
+            </h3>
 
-export default About
+            <p className="text-gray-300 leading-relaxed">
+              I build responsive, modern, and user-focused web applications.
+              My goal is to create websites that are functional, visually engaging,
+              and easy to use. I focus on clean code, scalability, and delivering
+              seamless user experiences across all devices.
+            </p>
+          </div>
+
+          {/* Right Side */}
+          <div className="md:w-1/2">
+            <ul className="space-y-4 text-gray-300">
+              <li className="border-b border-gray-700 pb-2">
+                <span className="font-semibold text-white">Name:</span> Jashim Uddin
+              </li>
+              <li className="border-b border-gray-700 pb-2">
+                <span className="font-semibold text-white">Email:</span> gjr953@gmail.com
+              </li>
+              <li className="border-b border-gray-700 pb-2">
+                <span className="font-semibold text-white">Age:</span> 22
+              </li>
+              <li className="border-b border-gray-700 pb-2">
+                <span className="font-semibold text-white">From:</span> Dhala, Bangladesh
+              </li>
+            </ul>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+};
+
+export default About;

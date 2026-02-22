@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section className="bg-slate-900 text-white py-20">
+        <div className="bg-slate-900 text-white py-20">
             <Container>
                 <div className="text-center mb-14">
                     <h2 className="font-INT text-3xl md:text-4xl font-bold">
@@ -76,7 +76,7 @@ const Contact = () => {
 
                 </div>
             </Container>
-        </section>
+        </div>
     )
 }
 
