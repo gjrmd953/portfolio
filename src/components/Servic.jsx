@@ -1,5 +1,6 @@
 import React from "react";
 import { Code, Smartphone, Shield } from "lucide-react";
+import { IoLogoGithub } from "react-icons/io";
 
 const services = [
   {
@@ -42,7 +43,7 @@ const services = [
     title: "Git & GitHub",
     description:
       "Managing source code with Git, handling branches, pull requests, and collaborative workflows using GitHub to maintain clean and organized projects.",
-    icon: <Shield size={40} />,
+    icon: <IoLogoGithub size={40} />,
   },
 ];
 
