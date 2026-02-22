@@ -36,7 +36,7 @@ const services = [
     title: "Performance Optimization",
     description:
       "Improving application speed and efficiency through code splitting, lazy loading, asset optimization, and minimizing unnecessary re-renders.",
-    icon: <Shield size={40} />,
+    icon: <LuSquareActivity size={40} />,
   },
   {
     id: 6,
