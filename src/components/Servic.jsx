@@ -1,6 +1,7 @@
 import React from "react";
 import { Code, Smartphone, Shield } from "lucide-react";
 import { IoLogoGithub } from "react-icons/io";
+import { LuSquareActivity } from "react-icons/lu";
 
 const services = [
   {
@@ -29,7 +30,7 @@ const services = [
     title: "API Integration",
     description:
       "Connecting frontend applications with REST APIs using asynchronous requests, handling authentication, and managing state for dynamic and real-time user experiences.",
-    icon: <Shield size={40} />,
+    icon: <FaPlug size={40}/>,
   },
   {
     id: 5,
