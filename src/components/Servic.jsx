@@ -3,7 +3,7 @@ import Container from "./Container";
 // import { Code, Smartphone, Shield, Container } from "lucide-react";
 import { IoLogoGithub } from "react-icons/io";
 import { LuSquareActivity } from "react-icons/lu";
-import { FaPlug } from "react-icons/fa";
+import { FaCode, FaPlug, FaShieldAlt } from "react-icons/fa";
 import { Smartphone } from "lucide-react";
 import { MdSmartphone } from "react-icons/md";
 
@@ -13,7 +13,7 @@ const services = [
     title: "Frontend Development",
     description:
       "I build responsive, modern, and high-performance websites using React, Tailwind CSS, and modern UI/UX principles. My focus is on clean code, scalability, and delivering seamless user experiences.",
-    icon: <Code size={40} />,
+    icon: <FaCode size={40}/>,
   },
   {
     id: 2,
