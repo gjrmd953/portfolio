@@ -5,6 +5,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { LuSquareActivity } from "react-icons/lu";
 import { FaPlug } from "react-icons/fa";
 import { Smartphone } from "lucide-react";
+import { MdSmartphone } from "react-icons/md";
 
 const services = [
   {
@@ -19,7 +20,7 @@ const services = [
     title: "Responsive Design",
     description:
       "I follow a mobile-first design approach to ensure seamless and consistent user experiences across all devices and screen sizes.",
-    icon: <Smartphone size={40} />,
+    icon: <MdSmartphone size={40}/>,
   },
   {
     id: 3,
