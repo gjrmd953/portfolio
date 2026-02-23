@@ -22,7 +22,7 @@ const Navbar = () => {
           </div>
           <div className="w-1/4">
             <div className="text-end">
-              <h2 className='font-INT font-semiboldm text-[18px] text-white cursor-pointer py-1 px-2 border-2 inline-block'>LET'S TALK</h2>
+              <h2 className='font-INT font-semibold text-[18px] text-white cursor-pointer py-1 px-2 border-2 inline-block'>LET'S TALK</h2>
             </div>
           </div>
 
