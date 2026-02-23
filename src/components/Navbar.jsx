@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
 
           <div className="w-1/4">
-            <h1 className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>GJR</h1>
+            <h1 className='font-INT font-semibold text-[18px] text-white cursor-pointer'>GJR</h1>
           </div>
 
           <div className="w-2/4">
