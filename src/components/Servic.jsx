@@ -1,10 +1,8 @@
 import React from "react";
 import Container from "./Container";
-// import { Code, Smartphone, Shield, Container } from "lucide-react";
 import { IoLogoGithub } from "react-icons/io";
 import { LuSquareActivity } from "react-icons/lu";
 import { FaCode, FaPlug, FaShieldAlt } from "react-icons/fa";
-import { Smartphone } from "lucide-react";
 import { MdSmartphone } from "react-icons/md";
 
 const services = [
