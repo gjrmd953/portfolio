@@ -17,7 +17,7 @@ const Navbar = () => {
               <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>About</li>
               <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Service</li>
               <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Projects</li>
-              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Contract</li>
+              <li className='font-INT font-semiboldm text-[18px] text-white cursor-pointer'>Contact</li>
             </ul>
           </div>
           <div className="w-1/4">
