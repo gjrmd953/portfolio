@@ -29,7 +29,7 @@ const Navbar = () => {
 
           {/* Desktop Button */}
           <div className="hidden md:block">
-            <button className='font-INT font-semibold text-[18px] text-white py-1 px-3 border-2 border-white hover:bg-white hover:text-teal-500 transition'>
+            <button className='font-INT font-semibold text-[18px] text-white py-1 px-3 border-2 border-white hover:bg-white hover:text-teal-500 transition cursor-pointer '>
               LET'S TALK
             </button>
           </div>
