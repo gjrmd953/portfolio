@@ -35,17 +35,17 @@ const Banner = () => {
   }, [displayText, isDeleting, textIndex]);
 
   return (
-    <div className="bg-[url('/banner2.jpg')] bg-no-repeat bg-center bg-cover py-50 relative ">
-        <Container>
+    <div className="bg-[url('/banner2.jpg')] bg-no-repeat bg-center bg-cover py-62 relative ">
+      <Container>
         <div className="flex items-center">
-            <div className="w-2/3">
-          <h1 className="text-white text-[60px]  font-bold">
-            Hi I am <span className="text-teal-500">{displayText}</span>
-          </h1>
-        </div>
-        <div className="w-1/3 flex justify-center">
-           <div className="h-75 w-75 bg-teal-500 rounded-full"></div>
-        </div>
+          <div className="w-2/3">
+            <h1 className="text-white text-[60px]  font-bold">
+              Hi I am <span className="text-teal-500">{displayText}</span>
+            </h1>
+          </div>
+          <div className="w-1/3 flex justify-center">
+            <div className="h-75 w-75 bg-teal-500 rounded-full"></div>
+          </div>
         </div>
       </Container>
     </div>
